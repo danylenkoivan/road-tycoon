@@ -1,0 +1,6 @@
+<div *ngFor="let row of map; let i=index ">
+	<div *ngFor="let column of row; let j=index ">
+		<div class="tile tile-{{column}}" (click)="tileClicked(i, j)"></div>
+	</div>
+	<div class="cleaner"></div>
+</div>

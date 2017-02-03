@@ -1,0 +1,132 @@
+div.tile {
+	background-size: 100%;
+	border: 0.5px solid #ddd;
+	cursor: pointer;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+div.tile-1 {
+	background-image: url("/assets/map-images/tile-1.png");
+}
+div.tile-11 {
+	background-image: url("/assets/map-images/tile-11.png");
+}
+div.tile-12 {
+	background-image: url("/assets/map-images/tile-12.png");
+}
+div.tile-13 {
+	background-image: url("/assets/map-images/tile-13.png");
+}
+div.tile-14 {
+	background-image: url("/assets/map-images/tile-14.png");
+}
+div.tile-15 {
+	background-image: url("/assets/map-images/tile-15.png");
+}
+div.tile-16 {
+	background-image: url("/assets/map-images/tile-16.png");
+}
+div.tile-17 {
+	background-image: url("/assets/map-images/tile-17.png");
+}
+div.tile-18 {
+	background-image: url("/assets/map-images/tile-18.png");
+}
+div.tile-19 {
+	background-image: url("/assets/map-images/tile-19.png");
+}
+div.tile-110 {
+	background-image: url("/assets/map-images/tile-110.png");
+}
+div.tile-111 {
+	background-image: url("/assets/map-images/tile-111.png");
+}
+div.tile-112 {
+	background-image: url("/assets/map-images/tile-112.png");
+}
+
+div.tile-2 {
+	background-image: url("/assets/map-images/tile-2.png");
+}
+div.tile-21 {
+	background-image: url("/assets/map-images/tile-21.png");
+}
+div.tile-22 {
+	background-image: url("/assets/map-images/tile-22.png");
+}
+div.tile-23 {
+	background-image: url("/assets/map-images/tile-23.png");
+}
+div.tile-24 {
+	background-image: url("/assets/map-images/tile-24.png");
+}
+div.tile-25 {
+	background-image: url("/assets/map-images/tile-25.png");
+}
+div.tile-26 {
+	background-image: url("/assets/map-images/tile-26.png");
+}
+div.tile-27 {
+	background-image: url("/assets/map-images/tile-27.png");
+}
+div.tile-28 {
+	background-image: url("/assets/map-images/tile-28.png");
+}
+div.tile-29 {
+	background-image: url("/assets/map-images/tile-29.png");
+}
+div.tile-210 {
+	background-image: url("/assets/map-images/tile-210.png");
+}
+div.tile-211 {
+	background-image: url("/assets/map-images/tile-211.png");
+}
+div.tile-212 {
+	background-image: url("/assets/map-images/tile-212.png");
+}
+
+div.tile-3 {
+	background-image: url("/assets/map-images/tile-3.png");
+}
+div.tile-31 {
+	background-image: url("/assets/map-images/tile-31.png");
+}
+div.tile-32 {
+	background-image: url("/assets/map-images/tile-32.png");
+}
+div.tile-33 {
+	background-image: url("/assets/map-images/tile-33.png");
+}
+div.tile-34 {
+	background-image: url("/assets/map-images/tile-34.png");
+}
+div.tile-35 {
+	background-image: url("/assets/map-images/tile-35.png");
+}
+div.tile-36 {
+	background-image: url("/assets/map-images/tile-36.png");
+}
+div.tile-37 {
+	background-image: url("/assets/map-images/tile-37.png");
+}
+div.tile-38 {
+	background-image: url("/assets/map-images/tile-38.png");
+}
+div.tile-39 {
+	background-image: url("/assets/map-images/tile-39.png");
+}
+div.tile-310 {
+	background-image: url("/assets/map-images/tile-310.png");
+}
+div.tile-311 {
+	background-image: url("/assets/map-images/tile-311.png");
+}
+div.tile-312 {
+	background-image: url("/assets/map-images/tile-312.png");
+}
+
+div.cleaner {
+	clear: both;
+}
