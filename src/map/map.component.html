@@ -1,6 +1,11 @@
-<div *ngFor="let row of map; let i=index ">
-	<div *ngFor="let column of row; let j=index ">
-		<div class="tile tile-{{column}}" (click)="tileClicked(i, j)"></div>
+<div id="map">
+	<div *ngFor="let row of map; let i=index ">
+		<div *ngFor="let column of row; let j=index ">
+			<div class="tile tile-{{column.terrain}}" (click)="tileClicked(i, j)">
+				<img src="/assets/map-images/{{column.city}}.png" alt="" *ngIf="column.city" />
+				<img src="/assets/map-images/road-{{column.road}}.png" alt="" *ngIf="column.road" />
+			</div>
+		</div>
+		<div class="cleaner"></div>
 	</div>
-	<div class="cleaner"></div>
 </div>
