@@ -100,8 +100,8 @@ echo json_encode(array(
 	),
 	array(
 		array('terrain' => 26),
-		array('terrain' => 3, 'road' => 3),
-		array('terrain' => 3, 'road' => 1),
+		array('terrain' => 3),
+		array('terrain' => 3),
 		array('terrain' => 3, 'city' => 'city'),
 		array('terrain' => 27),
 		array('terrain' => 23),
@@ -112,8 +112,8 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 3),
-		array('terrain' => 3, 'road' => 5),
+		array('terrain' => 3),
+		array('terrain' => 3),
 		array('terrain' => 18),
 		array('terrain' => 11),
 		array('terrain' => 15),
@@ -125,7 +125,7 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 2),
+		array('terrain' => 3),
 		array('terrain' => 18),
 		array('terrain' => 112),
 		array('terrain' => 1),
@@ -138,7 +138,7 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 2),
+		array('terrain' => 3),
 		array('terrain' => 17),
 		array('terrain' => 111),
 		array('terrain' => 1),
@@ -151,7 +151,7 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 2),
+		array('terrain' => 3),
 		array('terrain' => 3),
 		array('terrain' => 14),
 		array('terrain' => 1),
@@ -164,7 +164,7 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 2),
+		array('terrain' => 3),
 		array('terrain' => 3),
 		array('terrain' => 17),
 		array('terrain' => 13),
@@ -177,7 +177,7 @@ echo json_encode(array(
 		array('terrain' => 1)
 	),
 	array(
-		array('terrain' => 3, 'road' => 2),
+		array('terrain' => 3),
 		array('terrain' => 3),
 		array('terrain' => 3),
 		array('terrain' => 3),
@@ -190,15 +190,15 @@ echo json_encode(array(
 		array('terrain' => 111)
 	),
 	array(
-		array('terrain' => 3, 'road' => 6),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 7),
-		array('terrain' => 3, 'road' => 1),
-		array('terrain' => 3, 'road' => 1),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
+		array('terrain' => 3),
 		array('terrain' => 3, 'city' => 'capital'),
 		array('terrain' => 14)
 	),
