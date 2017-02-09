@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="row">
+        <div id="map-" class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        	<div *ngFor="let row of map; let i=index ">
+        		<div *ngFor="let column of row; let j=index ">
+        			<div class="tile tile-{{column.terrain}}" id="tile-{{i}}-{{j}}" attr.data-i="{{i}}" attr.data-j="{{j}}">
+        				<img src="/assets/map-images/{{column.city}}.png" *ngIf="column.city" />
+        				<img class="placed-road-draggable" src="/assets/map-images/road-{{column.road}}.png" attr.data-road="{{road}}" *ngIf="column.road" />
+        			</div>
+        		</div>
+        		<div class="cleaner"></div>
+        	</div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="panel panel-default" id="road-selector-window">
+                <div class="panel-heading">
+                    Drop road to where you want it to appear
+                </div>
+                <div class="panel-body">
+                    <div class="road-selector-item" *ngFor="let road of roads">
+                        <img src="/assets/map-images/road-{{road}}.png" class="road-selector-draggable" attr.data-road="{{road}}" />
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body text-center road-removal">
+                    Drop road here to remove it from the map
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

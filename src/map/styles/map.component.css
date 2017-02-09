@@ -140,13 +140,22 @@ div.cleaner {
 	clear: both;
 }
 
-.road-picker-radio {
-	margin: 2px 5px;
+
+#road-selector-window {
+ 	width: 254px;
+}
+
+#road-selector-window .road-selector-item {
+	margin: 5px;
 	cursor: pointer;
 	float: left;
 }
 
-.road-picker-radio img {
+#road-selector-window .road-selector-item img {
 	height: 64px;
 	width: 64px;
+}
+
+.placed-road-draggable.ui-draggable-dragging {
+	z-index: 999;
 }
